@@ -1,6 +1,9 @@
 # comment here
 ---
 microservice:
-  app: "user-authentication"
-  port: 9000
-   version: 1.7
+  - app: "user-authentication"
+    port: 9000
+    version: 1.7
+  - app: "shopping-cart"
+    port: 8000
+    version: 1.4
